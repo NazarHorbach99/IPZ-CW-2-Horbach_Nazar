@@ -35,7 +35,7 @@ import androidx.navigation.NavController
              fontSize = 20.sp,
          )
      }
-     Button(onClick = {navController.navigate(Screen.SecondScreen.route)}) {
+     Button(onClick = {navController.navigate(Screen.StartScreen.route)}) {
          Text(text = "Sing Out")
      }
  }
