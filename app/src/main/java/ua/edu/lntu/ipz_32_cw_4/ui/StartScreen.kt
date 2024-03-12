@@ -30,9 +30,14 @@ fun StartScreen(modifier: Modifier = Modifier, navController: NavController)
 {
     Column(modifier = modifier.padding(16.dp)) {
         Text(
-            text = "EMAIL",
+            text = "Email",
             fontSize = 20.sp,
         )
+        Text(
+            text = "Password",
+            fontSize = 20.sp,
+        )
+
         Button(onClick = {navController.navigate(Screen.SecondScreen.route)}) {
             Text(text = "Sing In")
         }
