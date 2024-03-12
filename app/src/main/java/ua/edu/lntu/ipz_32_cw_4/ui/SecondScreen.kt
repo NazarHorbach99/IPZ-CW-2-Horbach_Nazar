@@ -11,6 +11,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -28,10 +29,14 @@ import androidx.navigation.NavController
 @Composable
  fun SecondScreen(modifier: Modifier = Modifier, navController: NavController)
  {
-     Column(modifier = modifier.padding(16.dp)) {
+     Column(modifier = modifier.padding(70.dp)) {
          Text(
              text = "Sucssecful.",
              fontSize = 20.sp,
          )
      }
+     Button(onClick = {navController.navigate(Screen.SecondScreen.route)}) {
+         Text(text = "Sing Out")
+     }
  }
+
