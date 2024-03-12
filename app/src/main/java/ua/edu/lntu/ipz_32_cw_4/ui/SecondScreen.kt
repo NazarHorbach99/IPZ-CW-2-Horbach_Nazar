@@ -31,7 +31,7 @@ import androidx.navigation.NavController
  {
      Column(modifier = modifier.padding(70.dp)) {
          Text(
-             text = "Sucssecful.",
+             text = "Sign In success.",
              fontSize = 20.sp,
          )
      }
