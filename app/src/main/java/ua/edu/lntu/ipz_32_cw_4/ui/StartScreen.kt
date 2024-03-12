@@ -37,10 +37,6 @@ fun StartScreen(modifier: Modifier = Modifier, navController: NavController)
             text = "Password",
             fontSize = 20.sp,
         )
-        Text(
-            text = "Password",
-            fontSize = 20.sp,
-        )
 
         Button(onClick = {navController.navigate(Screen.SecondScreen.route)}) {
             Text(text = "Sing In")
